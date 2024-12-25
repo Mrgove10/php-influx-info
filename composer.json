@@ -2,6 +2,7 @@
     "name": "adrien/php-home-info",
     "description": "Get influx data and show on page",
     "type": "project",
+    "license": "MIT",
     "require": {
         "influxdata/influxdb-client-php": "^3.6",
         "nyholm/psr7": "^1.8",
