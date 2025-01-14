@@ -95,31 +95,31 @@ for ($i = 1; $i <= 6; $i++) {
     $sensorData[] = ["temperature" => $temperature, "humidity" => $humidity];
 }
 ?>
-  <div class="image-container">
+ <div class="image-container">
     <img src="maps.png" alt="Background" class="background-image">
     <div class="temp-box box_LR">
-      <?php echo $sensorData[0]["temperature"]; ?> °C<br>
-      <?php echo $sensorData[0]["humidity"]; ?>%
+      <?php echo $sensorData[5]["temperature"]; ?>   C<br>
+      <?php echo $sensorData[5]["humidity"]; ?>%
     </div>
     <div class="temp-box box_BATH">
-      <?php echo $sensorData[1]["temperature"]; ?> °C<br>
-      <?php echo $sensorData[1]["humidity"]; ?>%
+      <?php echo $sensorData[0]["temperature"]; ?>   C<br>
+      <?php echo $sensorData[0]["humidity"]; ?>%
     </div>
     <div class="temp-box box_BRAR">
-      <?php echo $sensorData[2]["temperature"]; ?> °C<br>
-      <?php echo $sensorData[2]["humidity"]; ?>%
-    </div>
-    <div class="temp-box box_BRYH">
-      <?php echo $sensorData[3]["temperature"]; ?> °C<br>
-      <?php echo $sensorData[3]["humidity"]; ?>%
-    </div>
-    <div class="temp-box box_KIT">
-      <?php echo $sensorData[4]["temperature"]; ?> °C<br>
+      <?php echo $sensorData[4]["temperature"]; ?>   C<br>
       <?php echo $sensorData[4]["humidity"]; ?>%
     </div>
+    <div class="temp-box box_BRYH">
+      <?php echo $sensorData[1]["temperature"]; ?>   C<br>
+      <?php echo $sensorData[1]["humidity"]; ?>%
+    </div>
+    <div class="temp-box box_KIT">
+      <?php echo $sensorData[2]["temperature"]; ?>   C<br>
+      <?php echo $sensorData[2]["humidity"]; ?>%
+    </div>
     <div class="temp-box box_OUT">
-      <?php echo $sensorData[5]["temperature"]; ?> °C<br>
-      <?php echo $sensorData[5]["humidity"]; ?>%
+      <?php echo $sensorData[3]["temperature"]; ?>   C<br>
+      <?php echo $sensorData[3]["humidity"]; ?>%
     </div>
   </div>
 </body>
